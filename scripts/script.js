@@ -28,10 +28,10 @@ function round(playerSelection, computerSelection) {
     }
 }
 
-roundsPlayed = 5;
+let roundsPlayed = 5;
 
 function game() {
-    for (let i = 1; i < roundsPlayed + 1; i++ ) {
+    for (let i = 0; i < roundsPlayed; i++ ) {
         let playerSelection = prompt("Rock, Paper, or Scissors?");
         let computerSelection = getComputerChoice();
         console.log(round(playerSelection, computerSelection));
