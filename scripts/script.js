@@ -54,8 +54,8 @@ function round(playerSelection, computerSelection) {
 function game() {
     let playerSelection = this.textContent;
     let computerSelection = getComputerChoice();
-    scoreboard.textContent = `Player: ${playerPoints} Computer: ${computerPoints}`;
     para.textContent = `${round(playerSelection,computerSelection)}`;
+    scoreboard.textContent = `Player: ${playerPoints} Computer: ${computerPoints}`;
     
 
 
